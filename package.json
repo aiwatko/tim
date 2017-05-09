@@ -1,0 +1,19 @@
+{
+  "name": "tim-s-website",
+  "version": "1.0.0",
+  "description": "Tim's cool minimalistic website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiwatko/tim.git"
+  },
+  "author": "Oktawia Kata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aiwatko/tim/issues"
+  },
+  "homepage": "https://github.com/aiwatko/tim#readme"
+}
