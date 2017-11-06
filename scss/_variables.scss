@@ -3,11 +3,9 @@ $primary-font: 'Didact Gothic', sans-serif !default;
 $secondary-font: 'Playfair Display', serif !default;
 
 /* colors */
-$primary:rgba(42,169,186,1) !default;
-$secondary: rgba(255,204,75,1) !default;
-$tertiary:  rgba(145,10,10, 1) !default;
+$link-color: rgb(147, 61, 147);
 
-
+$base-transition-time: .4s;
 /* spacing */
 $default-space-sm: 5px !default;
 $default-space-md: 10px !default;
