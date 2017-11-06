@@ -9,6 +9,7 @@
   @media (min-width: $medium-breakpoint) {
     flex-direction: row;
     height: 100vh;
+    overflow: hidden;
   }
 }
 

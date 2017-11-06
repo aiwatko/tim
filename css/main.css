@@ -738,7 +738,8 @@ object {
   @media (min-width: 767px) {
     .main-container {
       flex-direction: row;
-      height: 100vh; } }
+      height: 100vh;
+      overflow: hidden; } }
 
 .content,
 .image {
