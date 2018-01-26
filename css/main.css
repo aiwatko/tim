@@ -755,14 +755,22 @@ object {
   @media (min-width: 1024px) {
     .content {
       padding: 20px 50px; } }
-  .content .bottom .contact img {
-    display: inline-block;
-    width: 25px;
-    height: auto;
-    margin: 0 10px; }
-    @media (min-width: 1024px) {
-      .content .bottom .contact img {
-        width: 30px; } }
+  .content .bottom .contact-link {
+    position: relative;
+    margin: 10px;
+    height: 25px;
+    width: 25px; }
+    .content .bottom .contact-link .contact-img, .content .bottom .contact-link .contact-img-hover {
+      width: 100%;
+      height: 100%; }
+    .content .bottom .contact-link .contact-img-hover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      display: none; }
+    .content .bottom .contact-link:hover .contact-img-hover {
+      display: inline; }
   .content .title, .content .subtitle, .content .collaborate {
     font-family: "Playfair Display", serif; }
   .content .title {
